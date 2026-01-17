@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité - Jass Points</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        h3 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        h4 {
+            color: #666;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-bottom: 15px;
+            margin-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .update-date {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        
+        .language-divider {
+            margin: 60px 0;
+            border: 0;
+            border-top: 3px solid #3498db;
+        }
+        
+        .contact {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.5em;
+            }
+            
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Politique de confidentialité / Privacy Policy</h1>
+        <p class="update-date"><strong>Dernière mise à jour / Last updated:</strong> 17 janvier 2026</p>
+        
+        <!-- French Version -->
+        <h2>Français</h2>
+        
+        <h3>1. Introduction</h3>
+        <p>Jass Points ("nous", "notre", "l'application") est une application de comptage de points pour le jeu de cartes suisse Jass. Nous respectons votre vie privée et nous nous engageons à protéger vos données personnelles.</p>
+        
+        <h3>2. Données collectées</h3>
+        
+        <h4>2.1 Données locales (stockées uniquement sur votre appareil)</h4>
+        <ul>
+            <li><strong>Parties de Jass</strong> : Scores, noms d'équipes, historique des parties</li>
+            <li><strong>Préférences de l'application</strong> : Thème, paramètres de jeu</li>
+            <li><strong>Préréglages personnalisés</strong> : Configurations de parties sauvegardées</li>
+            <li><strong>État de la version Pro</strong> : Statut d'achat de la version Pro (stocké localement)</li>
+        </ul>
+        <p>Ces données restent <strong>strictement sur votre appareil</strong> et ne sont jamais transmises à nos serveurs.</p>
+        
+        <h4>2.2 Données collectées lors de rapports de bugs ou suggestions (optionnel)</h4>
+        <p>Lorsque vous choisissez d'envoyer un rapport de bug ou une suggestion d'amélioration, nous collectons :</p>
+        <ul>
+            <li>Titre et description fournis par vous</li>
+            <li>Adresse email (si vous choisissez de la fournir - optionnel)</li>
+            <li>Informations techniques automatiques :
+                <ul>
+                    <li>Version de l'application</li>
+                    <li>Modèle et fabricant de l'appareil</li>
+                    <li>Version Android</li>
+                    <li>Langue système</li>
+                </ul>
+            </li>
+        </ul>
+        <p>Ces données sont collectées <strong>uniquement si vous choisissez</strong> d'envoyer un rapport et sont stockées dans Firebase Firestore.</p>
+        
+        <h4>2.3 Données analytiques (Firebase Analytics)</h4>
+        <p>Nous utilisons Firebase Analytics pour comprendre comment l'application est utilisée :</p>
+        <ul>
+            <li>Statistiques d'utilisation anonymes</li>
+            <li>Données de crash (Firebase Crashlytics) pour améliorer la stabilité</li>
+            <li>Données agrégées sur les fonctionnalités utilisées</li>
+            <li>Identifiants d'appareil anonymes (Firebase Installation ID)</li>
+        </ul>
+        <p>Ces données sont <strong>anonymisées</strong> et ne permettent pas de vous identifier personnellement.</p>
+        
+        <h4>2.4 Données de paiement (version Pro)</h4>
+        <p>Pour les achats in-app (version Pro), Google Play gère les transactions. Nous ne collectons ni ne stockons vos informations de paiement. Seul l'état de votre achat (Pro activé ou non) est sauvegardé localement sur votre appareil.</p>
+        
+        <h3>3. Utilisation des données</h3>
+        <p>Les données collectées sont utilisées pour :</p>
+        <ul>
+            <li><strong>Fonctionnement de l'application</strong> : Sauvegarder vos parties et préférences localement</li>
+            <li><strong>Amélioration</strong> : Analyser les bugs signalés et implémenter des améliorations</li>
+            <li><strong>Stabilité</strong> : Détecter et corriger les plantages via Crashlytics</li>
+            <li><strong>Statistiques</strong> : Comprendre l'utilisation pour améliorer l'expérience utilisateur</li>
+        </ul>
+        
+        <h3>4. Partage des données</h3>
+        <p>Nous ne vendons ni ne partageons vos données personnelles avec des tiers, sauf :</p>
+        <ul>
+            <li><strong>Google Firebase</strong> : Pour le stockage des rapports de bugs/suggestions et l'analyse anonyme (soumis à la <a href="https://firebase.google.com/support/privacy" target="_blank">politique de confidentialité de Google</a>)</li>
+            <li><strong>Google Play</strong> : Pour les achats in-app (soumis à la <a href="https://policies.google.com/privacy" target="_blank">politique de confidentialité de Google</a>)</li>
+        </ul>
+        
+        <h3>5. Sécurité des données</h3>
+        <ul>
+            <li>Les données locales sont stockées sur votre appareil avec les mécanismes de sécurité Android</li>
+            <li>Les communications avec Firebase utilisent le chiffrement HTTPS/TLS</li>
+            <li>Les rapports de bugs sont stockés sur des serveurs Firebase sécurisés avec chiffrement au repos</li>
+        </ul>
+        
+        <h3>6. Vos droits</h3>
+        <p>Vous avez le droit de :</p>
+        <ul>
+            <li><strong>Accéder</strong> à vos données : Consultez l'historique dans l'application</li>
+            <li><strong>Supprimer</strong> vos données : Utilisez la fonction "Supprimer tout l'historique" dans l'application</li>
+            <li><strong>Retirer votre consentement</strong> : Désinstallez l'application pour supprimer toutes les données locales</li>
+        </ul>
+        <p>Pour les rapports de bugs/suggestions déjà envoyés, contactez-nous pour demander leur suppression.</p>
+        
+        <h3>7. Données des enfants</h3>
+        <p>L'application ne cible pas les enfants de moins de 13 ans et ne collecte pas sciemment de données d'enfants.</p>
+        
+        <h3>8. Rétention des données</h3>
+        <ul>
+            <li><strong>Données locales</strong> : Conservées indéfiniment sur votre appareil jusqu'à suppression ou désinstallation</li>
+            <li><strong>Données Analytics/Crash</strong> : Conservées selon les paramètres par défaut de Firebase (60 jours pour Analytics, 90 jours pour Crashlytics)</li>
+            <li><strong>Rapports de bugs</strong> : Conservés jusqu'à 2 ans à des fins d'amélioration</li>
+        </ul>
+        
+        <h3>9. Modifications de cette politique</h3>
+        <p>Nous pouvons mettre à jour cette politique de confidentialité. Les modifications seront publiées sur cette page avec une nouvelle date de mise à jour.</p>
+        
+        <h3>10. Contact</h3>
+        <div class="contact">
+            <p>Pour toute question concernant cette politique de confidentialité :</p>
+            <ul>
+                <li>Email : <a href="mailto:kijunpulz@gmail.com">kijunpulz@gmail.com</a></li>
+                <li>Depuis l'application : Menu → Signaler un bug</li>
+            </ul>
+        </div>
+        
+        <hr class="language-divider">
+        
+        <!-- English Version -->
+        <h2>English</h2>
+        
+        <h3>1. Introduction</h3>
+        <p>Jass Points ("we", "our", "the application") is a score tracking application for the Swiss card game Jass. We respect your privacy and are committed to protecting your personal data.</p>
+        
+        <h3>2. Data Collected</h3>
+        
+        <h4>2.1 Local Data (stored only on your device)</h4>
+        <ul>
+            <li><strong>Jass Games</strong>: Scores, team names, game history</li>
+            <li><strong>App Preferences</strong>: Theme, game settings</li>
+            <li><strong>Custom Presets</strong>: Saved game configurations</li>
+            <li><strong>Pro Version Status</strong>: Purchase status of Pro version (stored locally)</li>
+        </ul>
+        <p>This data remains <strong>strictly on your device</strong> and is never transmitted to our servers.</p>
+        
+        <h4>2.2 Data Collected for Bug Reports or Suggestions (optional)</h4>
+        <p>When you choose to send a bug report or improvement suggestion, we collect:</p>
+        <ul>
+            <li>Title and description provided by you</li>
+            <li>Email address (if you choose to provide it - optional)</li>
+            <li>Automatic technical information:
+                <ul>
+                    <li>App version</li>
+                    <li>Device model and manufacturer</li>
+                    <li>Android version</li>
+                    <li>System language</li>
+                </ul>
+            </li>
+        </ul>
+        <p>This data is collected <strong>only if you choose</strong> to send a report and is stored in Firebase Firestore.</p>
+        
+        <h4>2.3 Analytics Data (Firebase Analytics)</h4>
+        <p>We use Firebase Analytics to understand how the application is used:</p>
+        <ul>
+            <li>Anonymous usage statistics</li>
+            <li>Crash data (Firebase Crashlytics) to improve stability</li>
+            <li>Aggregated data on features used</li>
+            <li>Anonymous device identifiers (Firebase Installation ID)</li>
+        </ul>
+        <p>This data is <strong>anonymized</strong> and does not allow personal identification.</p>
+        
+        <h4>2.4 Payment Data (Pro version)</h4>
+        <p>For in-app purchases (Pro version), Google Play handles transactions. We do not collect or store your payment information. Only your purchase status (Pro enabled or not) is saved locally on your device.</p>
+        
+        <h3>3. Data Usage</h3>
+        <p>Collected data is used to:</p>
+        <ul>
+            <li><strong>Application Operation</strong>: Save your games and preferences locally</li>
+            <li><strong>Improvement</strong>: Analyze reported bugs and implement improvements</li>
+            <li><strong>Stability</strong>: Detect and fix crashes via Crashlytics</li>
+            <li><strong>Statistics</strong>: Understand usage to improve user experience</li>
+        </ul>
+        
+        <h3>4. Data Sharing</h3>
+        <p>We do not sell or share your personal data with third parties, except:</p>
+        <ul>
+            <li><strong>Google Firebase</strong>: For bug report/suggestion storage and anonymous analytics (subject to <a href="https://firebase.google.com/support/privacy" target="_blank">Google's privacy policy</a>)</li>
+            <li><strong>Google Play</strong>: For in-app purchases (subject to <a href="https://policies.google.com/privacy" target="_blank">Google's privacy policy</a>)</li>
+        </ul>
+        
+        <h3>5. Data Security</h3>
+        <ul>
+            <li>Local data is stored on your device with Android security mechanisms</li>
+            <li>Communications with Firebase use HTTPS/TLS encryption</li>
+            <li>Bug reports are stored on secure Firebase servers with encryption at rest</li>
+        </ul>
+        
+        <h3>6. Your Rights</h3>
+        <p>You have the right to:</p>
+        <ul>
+            <li><strong>Access</strong> your data: Check history in the app</li>
+            <li><strong>Delete</strong> your data: Use the "Delete all history" function in the app</li>
+            <li><strong>Withdraw consent</strong>: Uninstall the app to remove all local data</li>
+        </ul>
+        <p>For bug reports/suggestions already sent, contact us to request their deletion.</p>
+        
+        <h3>7. Children's Data</h3>
+        <p>The application does not target children under 13 and does not knowingly collect children's data.</p>
+        
+        <h3>8. Data Retention</h3>
+        <ul>
+            <li><strong>Local data</strong>: Stored indefinitely on device until user deletes or uninstalls</li>
+            <li><strong>Analytics/Crash data</strong>: Retained according to Firebase default retention (60 days for Analytics, 90 days for Crashlytics)</li>
+            <li><strong>Bug reports</strong>: Retained for up to 2 years for improvement purposes</li>
+        </ul>
+        
+        <h3>9. Changes to this Policy</h3>
+        <p>We may update this privacy policy. Changes will be published on this page with a new update date.</p>
+        
+        <h3>10. Contact</h3>
+        <div class="contact">
+            <p>For any questions regarding this privacy policy:</p>
+            <ul>
+                <li>Email: <a href="mailto:kijunpulz@gmail.com">kijunpulz@gmail.com</a></li>
+                <li>From the app: Menu → Report a Bug</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
